@@ -65,23 +65,6 @@ function countn(num2:number[]):number{
 console.log(countn([1,3,5,-3,-4]))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function contar(n3:number[]):number{
     let cnt:number = 0
     for (let i_ = 0; i_ < n3.length; i_++ ){

@@ -1,4 +1,4 @@
-function filter(n:number[]):number[]{
+function filter_(n:number[]):number[]{
     let arrayt:number[] = []
     for (let i = 0; i < n.length; i++){
         if (n[i] > 0){
@@ -7,4 +7,4 @@ function filter(n:number[]):number[]{
     }
     return arrayt
 }
-console.log(filter([1,-2,3,-1,5]))
+console.log(filter_([1,-2,3,-1,5]))

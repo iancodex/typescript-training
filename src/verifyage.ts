@@ -7,4 +7,4 @@ function isolder(agetrue: number):string{
         return ("Minor")
     }
 }
-console.log(`${name} is ${isolder(age)}`)
+console.log(`${name} is ${isolder(age)}`)   
